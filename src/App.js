@@ -1,6 +1,8 @@
 import './App.css';
 import MenuItem from './components/MenuItem';
 import logo from './images/logo.jpg'
+import Logo from './components/Logo';
+import Description from './components/Description';
 
 // import 'bootstrap/dist/css/bootstrap.min.css'; // This imports bootstrap css styles. You can use bootstrap or your own classes by using the className attribute in your elements.
 
@@ -83,21 +85,13 @@ const menuItems = [
 function App() {
   return (
     <div>
-      <div class="row text-center">
-        <div class = "col logo"><img src={logo}alt="campus cafe logo"/></div>
-      </div>
-      <div class="row text-center">
-        <div class = "col header1">Delicious, From-Scratch Recipes Close at Hand</div>
-      </div>
-      <div class="row text-center">
-        <div class = "col header2">The Fresh Choice of UT!</div>
-      </div>
+      <Logo logo={logo}></Logo>
+      <Description first="Delicious, From-Scratch Recipes Close at Hand" second="The Fresh Choice of UT!"></Description>
       <div className="menu">
         {/* Display menu items dynamicaly here by iterating over the provided menuItems */}
         {menuItems.map((props) => (
           <MenuItem title={props.title} description={props.description} image={props.imageName} price={menuItems[0].price}/>
         ))}
-        {/* <MenuItem title={menuItems[0].title} description={menuItems[0].description} image={menuItems[0].imageName} price={menuItems[0].price} /> Example for how to use a component */}
       </div>
     </div>
   );
