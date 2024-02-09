@@ -1,0 +1,49 @@
+body {
+    color: hotpink;
+}
+
+.food-description {
+    padding-right: 10%;
+    padding-left: 7%;
+    padding-top: 2.5%;
+}
+
+.title h2 {
+    font-weight: bold;
+    font-size: 130%;
+    padding-bottom: 1%;
+}
+
+.description h2 {
+    font-size: 100%;
+    padding-bottom: 1%;
+}
+
+.price {
+    padding-top: 3%;
+}
+
+.price h2{
+    font-size: 85%
+}
+
+.add button {
+    border-radius: 50%;
+    width: 50%;
+    background-color: plum;
+    font-size: 60%;
+}
+
+.food-img img {
+    height: 90%; 
+    width: 130%;
+    padding-left: 15%; 
+    padding-right: 10%; 
+    border-radius: 25%;
+}
+
+.menu-items {
+    padding-bottom: 8%;
+}
+
+
