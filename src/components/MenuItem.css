@@ -3,9 +3,8 @@ body {
 }
 
 .food-description {
-    padding-right: 10%;
-    padding-left: 7%;
-    padding-top: 2.5%;
+    padding-right: 5%;
+    padding-left: 15%;
 }
 
 .title h2 {
@@ -19,24 +18,14 @@ body {
     padding-bottom: 1%;
 }
 
-.price {
-    padding-top: 3%;
-}
-
 .price h2{
-    font-size: 85%
-}
-
-.add button {
-    border-radius: 50%;
-    width: 50%;
-    background-color: plum;
-    font-size: 60%;
+    font-size: 95%;
+    padding-top: 3%;
 }
 
 .food-img img {
     height: 90%; 
-    width: 130%;
+    width: 150%;
     padding-left: 15%; 
     padding-right: 10%; 
     border-radius: 25%;
